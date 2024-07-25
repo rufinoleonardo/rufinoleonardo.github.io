@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="web developer, angular, react, front end, back end, HTML, CSS, JavaScript, Typescript, database, systems, modern">
+    <meta name="author" content="Leonardo Rufino">
+    <meta name="description" content="Leonardo portfolio.">
+    <title>Leonardo's portfolio</title>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/general.style.css">
+    <link rel="stylesheet" href="/styles/header.style.css">
+    <link rel="stylesheet" href="/styles/hero.style.css">
+    <link rel="stylesheet" href="/styles/about.style.css">
+    <link rel="stylesheet" href="/styles/technologies.style.css">
+    <link rel="stylesheet" href="/styles/contacts.style.css">
+    <link rel="stylesheet" href="/styles/projects.style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-container">
+                <h1><a href="#hero">portfolio</a></h1>
+            </div>
+            <nav class="header-nav">
+                <a href="#about">
+                    About
+                </a>
+                <a href="#projects">
+                    Projects
+                </a>
+                <a href="#contact">
+                    Contacts
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container hero-section" id="hero">
+        <div class="section hero-container">
+            <div class="hero-title">
+                <h1>leonardo rufino</h1>
+                <h2>web developer</h2>
+            </div>
+            <div class="hero-2nd">
+                <div class="hero-description">
+                    <p>
+                        Your responsive web system, focused on user experience, with the latest <a
+                            href="#tech">technologies</a> on the market.
+                    </p>
+                </div>
+                <div class="cta">
+                    <a class="btn-cta"
+                        href="https://wa.me/5541984084524?text=Hello%2C%20Leonardo.%20I%20am%20reaching%20out%20to%20you%20through%20the%20link%20on%20your%20portfolio."
+                        target="_blank">Send a Whatsapp message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="section about-section" id="about">
+            <div class="part-1">
+                <h2>About</h2>
+                <div class="self-description">
+                    <p>With a background in Civil Engineering and currently studying Systems Analysis and Development, I
+                        aim
+                        to create websites and web systems that combine <span>modernity</span>,
+                        <span>responsiveness</span>,
+                        and <span>security</span>.
+                    </p>
+                    <p>I have been studying programming for approximately 4 years and have a strong understanding of
+                        both
+                        front-end and back-end development (using Node.js), which are essential for a complete
+                        application.
+                        I have developed several personal projects and am eager to show them to you.</p>
+                </div>
+            </div>
+            <div class="part-2">
+                <img src="assets/professionalpic.jpg" alt="Leonardo's photo">
+            </div>
+        </section>
+
+        <section class="section" id="tech">
+            <h2>Technologies</h2>
+            <h3>Some of the used technologies</h3>
+            <div class="tech-icons-container">
+                <div class="tech-icon">
+                    <i class="devicon-javascript-plain"></i>
+                    <p>Javascript</p>
+                    <p>and Typescript</p>
+                </div>
+                <div class="tech-icon">
+                    <i class="devicon-html5-plain"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="tech-icon">
+                    <i class="devicon-css3-plain"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="tech-icon">
+                    <i class="devicon-figma-plain"></i>
+                    <p>Figma</p>
+                </div>
+                <div class="tech-icon">
+                    <i class="devicon-react-original"></i>
+                    <p>React</p>
+                </div>
+                <div class="tech-icon">
+                    <i class="devicon-nodejs-plain-wordmark"></i>
+                    <p>Node Js</p>
+                </div>
+
+                <div class="tech-icon">
+                    <i class="devicon-postgresql-plain"></i>
+                    <p>Databases</p>
+                </div>
+                <div class="tech-icon">
+                    <i class="devicon-angularjs-plain"></i>
+                    <p>Angular</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects-section" id="projects">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="carousel">
+                    <div class="slides">
+                        <!-- Radio Buttons -->
+                        <input type="radio" name="radio-btn" id="radio1" class="radio" checked>
+                        <input type="radio" name="radio-btn" id="radio2" class="radio">
+                        <input type="radio" name="radio-btn" id="radio3" class="radio">
+                        <input type="radio" name="radio-btn" id="radio4" class="radio">
+
+                        <!-- Slide images -->
+                        <div class="slide first">
+                            <img src="assets/01_Gymstar.png" alt="Login page">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/02_Gymstar.png" alt="Dashboard page">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/03_Gymstar.png" alt="Training Sessions page">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/04_Gymstar.png" alt="Training details page">
+                        </div>
+
+                        <!-- Navigation labels -->
+                        <div class="navigation">
+                            <label class="bar" for="radio1"></label>
+                            <label class="bar" for="radio2"></label>
+                            <label class="bar" for="radio3"></label>
+                            <label class="bar" for="radio4"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-desc">
+                    <h3>Gymstar</h3>
+                    <p
+                        title="Gymstar é um sistema de gerenciamento de treinos de musculação onde você poderá registrar seus treinos e ter em mãos seu último desempenho, auxiliando assim na progressão do seu objetivo fitness.">
+                        Gymstar is a weight training management system where you can log your workouts and have your
+                        latest performance at hand, helping you progress towards your fitness goal.
+                    </p>
+                    <a href="#">Go to project (soon)</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contacts-section" id="contact">
+            <div class="contacts-container">
+                <h2>Contacts</h2>
+                <div class="icons-container">
+                    <a target=”_blank href="https://www.linkedin.com/in/rufinoleonardo/">
+                        <i class="devicon-linkedin-plain"></i>
+                        <p>Linkedin</p>
+                    </a>
+                    <a target=”_blank
+                        href="https://wa.me/5541984084524?text=Hi+Leonardo%21%0D%0A%0D%0AI+came+across+your+contact+information+on+Portfolio+and+I+was+very+interested+in+your+work.%0D%0A%0D%0ACould+you+send+me+some+information+and%2For+schedule+a+quick+call%3F%0D%0A%0D%0AI+look+forward+to+hearing+from+you%21">
+                        <i class="fa fa-whatsapp"></i>
+                        <p>Whatsapp</p>
+                    </a>
+                    <a target=”_blank href="mailto:rufinoleonardo@outlook.com">
+                        <i class="fa fa-envelope"></i>
+                        <p>E-mail</p>
+                    </a>
+                    <a target=”_blank href="https://github.com/rufinoleonardo">
+                        <i class="devicon-github-original"></i>
+                        <p>GitHub</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
